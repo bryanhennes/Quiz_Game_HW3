@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question2Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="What temperature does water boil at (in fahrenheit)?"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/question2_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/question2_answer1"
+            android:onClick="checkAnswer2"
+            />
+        <RadioButton
+            android:id="@+id/correct_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/correct_answer_question2"
+            android:onClick="checkAnswer2"
+            />
+        <RadioButton
+            android:id="@+id/question2_answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/question2_answer3"
+            android:onClick="checkAnswer2"
+            />
+        <RadioButton
+            android:id="@+id/question2_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/question2_answer4"
+            android:onClick="checkAnswer2"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Confirm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Confirm"
+        android:onClick="moveToQuestion3"
+        />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question4Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="How many bones are there in the human body?"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/question4_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/question4_answer1"
+            android:onClick="checkAnswer4"
+            />
+        <RadioButton
+            android:id="@+id/question4_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/question4_answer2"
+            android:onClick="checkAnswer4"
+            />
+        <RadioButton
+            android:id="@+id/correct_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/correct_answer_question4"
+            android:onClick="checkAnswer4"
+            />
+        <RadioButton
+            android:id="@+id/question4_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selection_background"
+            android:text="@string/question4_answer4"
+            android:onClick="checkAnswer4"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Confirm4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Confirm"
+        android:onClick="moveToQuestion5"
+        />
+
+</LinearLayout>

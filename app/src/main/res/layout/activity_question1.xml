@@ -1,0 +1,73 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question1Activity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true">
+
+
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="What country is Timbuktu located in?"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/correct_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correct_answer_question1"
+            android:background="@drawable/selection_background"
+            android:onClick="checkAnswer1"
+            />
+        <RadioButton
+            android:id="@+id/question1_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1_answer2"
+            android:background="@drawable/selection_background"
+            android:onClick="checkAnswer1"
+            />
+        <RadioButton
+            android:id="@+id/question1_answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1_answer3"
+            android:background="@drawable/selection_background"
+            android:onClick="checkAnswer1"
+            />
+        <RadioButton
+            android:id="@+id/question1_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1_answer4"
+            android:background="@drawable/selection_background"
+            android:onClick="checkAnswer1"
+            />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/Confirm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Confirm"
+        android:onClick="moveToQuestion2"
+        />
+
+</LinearLayout>

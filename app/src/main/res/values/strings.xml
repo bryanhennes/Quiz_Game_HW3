@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="correct_answer_question1">Mali</string>
+    <string name="question1_answer2">Cambodia</string>
+    <string name="question1_answer3">Philippines</string>
+    <string name="question1_answer4">Thailand</string>
+    <string name="question2_answer1">300 degrees</string>
+    <string name="correct_answer_question2">212 degrees</string>
+    <string name="question2_answer3">400 degrees</string>
+    <string name="question2_answer4">250 degrees</string>
+    <string name="question3_answer1">Wyoming</string>
+    <string name="correct_answer_question3">South Dakota</string>
+    <string name="question3_answer3">Idaho</string>
+    <string name="question3_answer4">North Dakota</string>
+    <string name="question4_answer1">534</string>
+    <string name="question4_answer2">1543</string>
+    <string name="correct_answer_question4">206</string>
+    <string name="question4_answer4">225</string>
+    <string name="question5_answer1">Saturn</string>
+    <string name="question5_answer2">Mars</string>
+    <string name="question5_answer3">Venus</string>
+    <string name="correct_answer_question5">Mercury</string>
+    <string name="question6_answer1">Bill Gates</string>
+    <string name="question6_answer2">Steve Jobs</string>
+    <string name="question6_answer3">Larry Page</string>
+    <string name="correct_answer_question6">Jack Dorsey</string>
+    <string name="correct_answer_question7">1998</string>
+    <string name="question7_answer2">1996</string>
+    <string name="question7_answer3">2000</string>
+    <string name="question7_answer4">1999</string>
+
+    <string-array name="answers_question1">
+        <item>Mali</item>
+        <item>Philippines</item>
+        <item>Cambodia</item>
+        <item>Thailand</item>
+    </string-array>
+</resources>
